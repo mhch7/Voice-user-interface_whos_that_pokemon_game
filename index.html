@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Who's That Pokemon</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+    <script src="pokemon.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>Who's That Pokemon?</h1>
+    <div id="container">
+      <div id="app">
+        <button id="listenBtn">Listen</button>
+        <button id="speakBtn">Playback</button>
+        <textarea id="text-area" placeholder="Transcript..."></textarea>
+        <p id="instructions"></p>
+      </div>
+    </div>
+
+    <div id="no-browser" class="hidden"></div>
+
+    <div class="circle-container">
+      <img src="" id="poke" />
+    </div>
+    <div id=info>
+          <h1 id="points">Points: </h1>
+          <h1 id="tries">Tries: </h1>
+
+    </div>
+  </body>
+</html>
